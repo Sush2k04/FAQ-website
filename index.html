@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="tit">Frequently Asked Questions</div>
+    <div class="faq">
+      <button class="question">1) What is border-box?</button>
+      <div class="answer">
+        Width/height includes content, padding, and border The box maintains the
+        exact specified dimensions Formula: content width = width - padding -
+        border
+      </div>
+      <button class="question">2) What is content-box?</button>
+      <div class="answer">
+        Width/height only includes the content area Padding and border are added
+        to the specified dimensions Formula: total width = width + padding +
+        border
+      </div>
+      <button class="question">3) What is padding-box?</button>
+      <div class="answer">
+        Width/height includes content and padding (but not border) Was part of
+        early CSS3 drafts but removed from the spec Only supported in some older
+        browsers (Firefox until version 50)
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
